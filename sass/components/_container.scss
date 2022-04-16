@@ -1,0 +1,40 @@
+.rating--container {
+  margin: 0 auto;
+  width: 560px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+.rating--box:hover {
+  background: hsl(213, 19%, 18%);
+  box-shadow: 0 0 30px hsl(213, 19%, 18%);
+  cursor: pointer;
+}
+
+.rating--box {
+  background-color: hsl(213, 19%, 18%);
+  padding: 2.4rem 2.4rem 2.4rem 2.4rem;
+  border-radius: 2.4rem;
+}
+
+.rating--header {
+  margin-bottom: 1.4rem;
+}
+
+.rating--numbers {
+  margin-bottom: 3.4rem;
+  position: relative;
+  left: 1%;
+}
+
+.thank-u-box {
+  transform: translateY(-37.6rem);
+}
+
+.hidden {
+  display: none;
+}
+
+.hiddenn {
+  display: none;
+}

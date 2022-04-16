@@ -1,0 +1,22 @@
+.btn {
+  position: relative;
+  left: 0%;
+  padding: 0.8rem;
+  width: 92%;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transform: translateY(-0.2rem);
+}
+
+.btn:active {
+  transform: translateY(0.2rem);
+}
