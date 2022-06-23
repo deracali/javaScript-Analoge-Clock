@@ -1,20 +1,15 @@
-.rating--header {
-  color: hsl(0, 0%, 100%);
-}
+.rating {
+  &__header {
+    color: hsl(0, 0%, 100%);
+  }
 
-.rating--text {
-  font-size: 1.5rem;
-  color: #959eac;
-  line-height: 1.5;
-  max-width: 100%;
-  margin-bottom: 3.4rem;
-}
-
-.text {
-  font-size: 1.5rem;
-  color: #959eac;
-  line-height: 1.5;
-  max-width: 100%;
+  &__text {
+    font-size: $ls--1;
+    color: #959eac;
+    line-height: 1.5;
+    max-width: 100%;
+    margin-bottom: 3.4rem;
+  }
 }
 
 .thank-you {
@@ -22,12 +17,12 @@
 }
 
 .select {
-  font-size: 1.4rem;
+  font-size: $ls--1;
   margin-bottom: 5.4rem;
-  padding: 1.4rem;
+  padding: $ls--1;
   border-radius: 2.4rem;
   background-color: #74767836;
   position: relative;
   left: -1%;
-  color: hsl(25, 97%, 53%);
+  color: $color--orange;
 }
